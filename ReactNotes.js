@@ -22,7 +22,8 @@
 /**
  "question": What are elements in React?",
  "answer": "The smallest building blocks of React apps.
- They are used to build React components."
+ They are used to build React components.
+ They can be HTML, or user-defined React components."
  */
 
 /**
@@ -37,8 +38,52 @@
  desired state.
  */
 
-// Left off here.
-// TODO: https://reactjs.org/docs/components-and-props.html
+/**
+ * question": "In React, what are components and how do you use them?
+ * "answer": "Components let you split the UI into independent, reusable
+ * pieces, and think about each piece in isolation.
+ *
+ * Conceptually, components are like JavaScript functions. They accept
+ * arbitrary inputs (called "props") and return React elements describing
+ * what should appear on the screen.
+ */
+
+/**
+ * "question": "What is the simplest way to define a component in React?",
+ * "answer": Below is a function component. It accepts a single 'props'
+ * object with data and returns a React element.
+ */
+function Welcome(props) {
+    return <h1>Hello, {props.name}</h1>;
+}
+
+// You can also use an ES6 class to define a component.
+class Welcome extends React.Component {
+    render() {
+        return <h1>Hello, {this.props.name}</h1>;
+    }
+}
+
+/**
+ * "question": "What does it mean to compose components in React?",
+ * "answer": "Components can refer to other components in their output. This
+ * lets us use the same component abstraction for any level of detail."
+ */
+
+/**
+ * "question": "When should one use a React functional component, over
+ * extending the React component class?",
+ * "answer": "Functional components are simpler because they lack side
+ * effects and should be used whenever possible. They are easier to test, and
+ * reason about because they deal with one argument, and render the inner
+ * markup... nothing else."
+ */
+
+/**
+ * "question": "How does React encourage the use of pure functions?"
+ * "answer": "Props are read-only. All React components must act like pure
+ * functions with respect to their props."
+ */
 
 /**
  "question": "Create a simple component utilizing interpolation.",
@@ -107,3 +152,4 @@ ReactDOM.render(<Timer />, mountNode);
  https://stackoverflow.com/questions/41837992/what-is-superprops-doing-for-my-react-component/41838191
  "
  */
+
