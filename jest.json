@@ -1,0 +1,6 @@
+[
+  {
+    "question": "How do you run only one test in an entire Jest test suite?",
+    "answer": "Use the --testNamePattern or -t flag. e.g. jest -t 'fix-order-test' https://stackoverflow.com/questions/42827054/how-do-i-run-a-single-test-using-jest#answer-42897994"
+  }
+]

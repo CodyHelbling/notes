@@ -5,6 +5,7 @@
  - Debugging Tools
  - Build Tools
  - Environment management tools
+ - Firefox/Chrome/IE Dev tools
 
  Programming Languages:
  - JavaScript
@@ -42,6 +43,10 @@
  - Linux
 
  Algorithms?
+
+ Testing
+ - Theory
+ - Jest
 
  Machine Learning?
  */
