@@ -1,0 +1,6 @@
+[
+  {
+  "question": "What causes CSS position fixed containing element to be smaller than full page height and width?",
+    "answer": "Normally, a fixed position element's containing block is the initial containing block established by the viewport. But... if ANY ancestor has transform, perspective, or filter properties set to something other than none that ancestor is the containing block."
+  }
+]
