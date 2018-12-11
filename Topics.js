@@ -48,5 +48,16 @@
  - Theory
  - Jest
 
+ Version Control
+ - Git
+
  Machine Learning?
+
+ Agile
+
+ Scrum
+ - Sprint Planning
+
+ Security
+ - OWASP
  */
