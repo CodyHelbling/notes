@@ -1,0 +1,6 @@
+[
+  {
+    "question": "How do you run pytest tests?",
+    "answer": "Executing `pytest` from the commandline will run all files of the form test_*.py or *_test.py in the current directory and subdirectories. For more detail see https://docs.pytest.org/en/latest/goodpractices.html#test-discovery."
+  }
+]
