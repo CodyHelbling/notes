@@ -15,7 +15,7 @@
 
 /**
  * "question": "What is the kube-apiserver?"
- * "answer": "Part of a master node. Front-end to the controle plane. Exposes
+ * "answer": "Part of a master node. Front-end to the control pane. Exposes
  * the API (REST).
  * Consumes JSON(via manifest files)
  * It's the only component of the master we really deal with."
@@ -46,7 +46,7 @@
 
 /**
  * "question": "What are the main components to the Kubernetes Master?"
- * "answer": "kube-apiserver, clusert store, kube-controller-manager,
+ * "answer": "kube-apiserver, cluster store, kube-controller-manager,
  * kube-scheduler."
  */
 
@@ -56,7 +56,7 @@
  */
 
 /**
- * "question": "What are the componnets to a Kubernetes Node?"
+ * "question": "What are the components to a Kubernetes Node?"
  * "answer": "Kubelet, container runtime, proxy."
  */
 
