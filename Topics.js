@@ -38,6 +38,7 @@
  - Docker
  - Kubernetes
  - Terraform?
+ - DataDog Logging
 
  OS
  - Linux
