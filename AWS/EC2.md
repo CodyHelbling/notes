@@ -91,15 +91,15 @@ FIGHT-DR-MCPIX
 
 ### What is EBS?
 - Elastic Block Storage.
-- If you think of EC2 as a virtual server in the cloud, EBS would be virual 
+- If you think of EC2 as a virtual server in the cloud, EBS would be virtual 
 storage in the cloud.
-- Allows you to create storage blocks and attache them to EC2 instances.
+- Allows you to create storage blocks and attach them to EC2 instances.
 - They automatically have replication across an availability zone.
 
 What are some EBS Volume Types?
 - General Purpose SSD
 - Provisioned IOPS SSD
-    - Designed fo rI/O intensive applications sucha as large relational NoSQL
+    - Designed fo rI/O intensive applications such as large relational NoSQL
      databases
 - Throughput optimized HDD
     - Big data
@@ -108,6 +108,13 @@ What are some EBS Volume Types?
 - Cold HDD
 - Magnetic (Standard)
     - Lowest cost for bootable volumes
+
+### In order to enable encryping at rest using EC2 and Elastic Block Store, 
+you must:
+- Configure encryption when creating the EBS volume.
+
+### Individual instances are provisioned:
+    - In Availability Zones
 
 ### What is the Gerneral Purpose SSD and why would you use it?
 - This EBS volume type balances price and performacnce for a wide variety of 
