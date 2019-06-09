@@ -1,8 +1,8 @@
 # API Gateway
 
-<!--- Question --->
+<!--- QA: Question --->
 ### What is API Gateway?
-<!--- Answer --->
+<!--- QA: Answer --->
 Amazon API Gateway is a fully managed service that makes it easy for 
 developers to publish, maintain, monitor, and secure APIs at any scale. With 
 a few clicks in the AWS Management Console, you can create an API that acts 
@@ -10,9 +10,9 @@ as a "front door" for applications to access data, business logic, or
 functionality from your back-end services, such as applications running on 
 EC2, Lambda or any web application.
 
-<!--- Question --->
+<!--- QA: Question --->
 ### What can API Gateway do?
-<!--- Answer --->
+<!--- QA: Answer --->
 - Expose HTTPS endpoints to define a RESTful API
 - Serverless-ly connect to services like Lambda and DynamoDB
 - Send each API endpoint to a different target
@@ -22,9 +22,9 @@ EC2, Lambda or any web application.
 - Connect to Cloudwatch to log stuff
 - Maintain multiple API versions
 
-<!--- Question --->
+<!--- QA: Question --->
 ### How do I configure API Gateway?
-<!--- Answer --->
+<!--- QA: Answer --->
 - Define an API (container)
 - Define Resources and nested Resources (URL paths)
 - For each resource:
@@ -37,14 +37,14 @@ EC2, Lambda or any web application.
     - Can use custom domain
     - Now supports AWS Certificate manager (free SSL certs!)
     
-<!--- Question --->
+<!--- QA: Question --->
 ### What is API caching?
-<!--- Answer --->
+<!--- QA: Answer --->
 - API Gateway can cache static responses for you for a specified time-to-live
  (TTL)
  
- <!--- Question --->
+ <!--- QA: Question --->
 ### What will you need to do if you're using JS/AJAX that uses mutiple domains with API Gateway?
-<!--- Answer --->
+<!--- QA: Answer --->
  - Ensure that you have enabled CORS on API Gateway
     
